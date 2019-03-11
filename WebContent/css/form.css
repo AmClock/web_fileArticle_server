@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+div#content {
+	margin-top: 180px;
+}
+
+div#headerBtnWrap {
+	display: none;
+}
+
+div#controlWrap {
+	display: none;
+}
+
+#titleWrap {
+	width: 1200px;
+	height: 80px;
+	padding-top: 10px;
+}
+
+#inputBox {
+	width: 994px;
+	height: 64px;
+	margin: auto;
+	border-radius: 50px;
+	border: 3px solid #284e75;
+	position: relative;
+}
+
+#inputBox input {
+	width: 900px;
+	height: 47px;
+	margin-left: 50px;
+	margin-top: 7px;
+	font-size: 25px;
+	outline: none;
+	border: none;
+}
+
+#inputBox label {
+	top: -12px;
+	left: -10px;
+	text-align: center;
+	position: absolute;
+	line-height: 30px;
+	font-size: 25px;
+	color: #284e75;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+#contentBox {
+	width: 1200px;
+	height: 450px;
+	padding-top: 50px;
+}
+
+#textareaBox {
+	width: 994px;
+	height: 394px;
+	margin: auto;
+	border: 3px solid #284e75;
+	border-radius: 10px;
+	position: relative;
+}
+
+#textareaBox label {
+	top: -12px;
+	left: -10px;
+	text-align: center;
+	position: absolute;
+	line-height: 30px;
+	font-size: 25px;
+	color: #284e75;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+#textareaBox textarea {
+	width: 900px;
+	height: 350px;
+	margin-top: 20px;
+	margin-left: 42px;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	resize: none;
+}
+
+#btnWrap {
+	width: 1200px;
+	height: 40px;
+	background-color: #fff;
+	margin: auto;
+	position: relative;
+}
+
+#btnWrap button {
+	width: 144px;
+	height: 34px;
+	border-radius: 5px;
+	border: 3px solid #284e75;
+	cursor: pointer;
+	color: #284e75;
+	font-weight: bold;
+	background-color: #fff;
+	outline: none;
+	position: absolute;
+	top: 3px;
+	transition: ease 100ms;
+}
+
+#btnWrap a button:first-child {
+	right: 170px;
+}
+
+#btnWrap button:last-child {
+	right: 10px;
+}
+
+#btnWrap button:hover {
+	color: #fff;
+	background-color: #284e75;
+	border: 3px solid #284e75;
+}

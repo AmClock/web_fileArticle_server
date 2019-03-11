@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+#mainTitle {
+	width: 1200px;
+	height: 98px;
+	border-bottom: 2px solid silver;
+	line-height: 100px;
+	text-indent: 15px;
+}
+
+#mainTitle h2 {
+	color: #284e75;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+div#contentWrap {
+	height: 750px;
+	overflow: hidden;
+}
+
+#contentWrap a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	position: relative;
+}
+
+.box_card {
+	width: 284px;
+	height: 94px;
+	float: left;
+	margin: 5px 5px;
+	color: #424242;
+	border: 3px solid #284e75;
+	border-radius: 5px;
+	transition: 1s ease;
+	background-color: #fff;
+}
+
+#contentWrap a:hover .box_card {
+	background-color: #3786d5;
+	border: 3px solid #173f69;
+}
+
+#contentWrap a:hover .txt_num {
+	color: #fff;
+	font-weight: bold;
+}
+
+#contentWrap a:hover .box_title {
+	color: #fff;
+}
+
+.txt_num, .box_title {
+	transition: 1s ease;
+}
+
+.txt_num {
+	width: 284px;
+	height: 30px;
+	font-size: 30px;
+	text-indent: 5px;
+}
+
+.box_title, .box_regdate {
+	line-height: 30px;
+}
+
+.box_title {
+	width: 284px;
+	height: 27px;
+	text-indent: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+div.box_regdate {
+	width: 279px;
+	height: 27px;
+	font-size: 15px;
+	color: silver;
+	padding-right: 5px;
+	text-align: end;
+}
+
+#moreBtnWrap {
+	width: 1200px;
+	height: 50px;
+	margin: auto;
+	background-color: transparent;
+	text-align: center;
+}
+
+#moreBtnWrap button {
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 25px;
+	border-radius: 50px;
+	color: #284e75;
+	border: 3px solid #284e75;
+	background-color: #fff;
+	cursor: pointer;
+	outline: none;
+	transition: 1s ease;
+}
+
+#moreBtnWrap button:hover {
+	color: #fff;
+	background-color: #284e75;
+}
+
+#notArticle {
+	width: 1200px;
+	height: 650px;
+	text-align: center;
+	line-height: 650px;
+	font-size: 30px;
+}

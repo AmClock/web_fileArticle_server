@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+div#content {
+	margin-top: 180px;
+}
+
+div#headerBtnWrap {
+	display: none;
+}
+
+div#controlWrap {
+	display: none;
+}
+
+div#contentWrap {
+	position: relative;
+}
+
+#numBox {
+	width: 74px;
+	height: 74px;
+	text-align: center;
+	line-height: 74px;
+	color: #284e75;
+	font-weight: bold;
+	border: 3px solid #284e75;
+	border-radius: 80px; text-shadow : 1px 1px 1px 1px solid #424242;
+	top: -30px;
+	left: -30px;
+	font-size: 50px;
+	position: absolute;
+	background-color: #fff;
+	text-shadow: 1px 1px 1px 1px solid #424242
+}
+
+#titleBox {
+	width: 1200px;
+	height: 57px;
+	border-bottom: 3px solid #F2F4F7;
+}
+
+#titleBox span {
+	display: block;
+	float: left;
+	line-height: 57px;
+}
+
+#titleBox span:first-child {
+	width: 1000px;
+	height: 60px;
+	font-size: 30px;
+	text-indent: 70px;
+}
+
+#titleBox span:last-child {
+	width: 200px;
+	height: 60px;
+	font-size: 15px;
+	color: silver;
+	text-align: center;
+}
+
+.wrap_btn {
+	width: 1200px;
+	height: 40px;
+	background-color: #fff;
+	margin: auto;
+	position: relative;
+}
+
+.wrap_btn button {
+	width: 144px;
+	height: 34px;
+	border-radius: 5px;
+	border: 3px solid #284e75;
+	cursor: pointer;
+	color: #284e75;
+	font-weight: bold;
+	background-color: #fff;
+	outline: none;
+	position: absolute;
+	top: 3px;
+	transition: ease 100ms;
+}
+
+.wrap_btn form button {
+	right: 170px;
+}
+
+.wrap_btn a button, .wrap_btn #backBtn {
+	right: 10px;
+}
+
+.wrap_btn button:hover {
+	color: #fff;
+	background-color: #284e75;
+	border: 3px solid #284e75;
+}
+
+#txtBox {
+	word-break: break-word;
+	width: 1160px;
+	height: 454px;
+	padding: 20px 20px;
+	border-top: 3px solid #F2F4F7;
+	border-bottom: 3px solid #F2F4F7;
+	line-height: initial;
+}
